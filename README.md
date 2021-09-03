@@ -25,20 +25,23 @@ SWAGGER : https://realworld-temp-api.herokuapp.com/api-docs
 ### 라우팅 가이드라인
 - 홈페이지 (URL: /#/ )
   - 태그 목록
-  - 각각의 게시판, 글로벌 또는 태그에 따른 게시글 목록 
+  - 각각의 피드, 글로벌 또는 태그에 따른 게시글 목록 
+  - 게시글 클릭 시 자세히 보기
+  - 게시글 좋아요 버튼
   - 게시글 목록 페이지네이션
 - 로그인/회원가입 페이지 (URL: /#/login, /#/register )
   - JWT 사용 (로컬스토리지에 저장된 토큰)
   - 인증은 쉽게 세션과 쿠키로 변경 될 수 있다. 
 - 관리 페이지 (URL: /#/settings)
-- 글을 생성하고 수정하기 위한 관리자 페이지 (URL: /#/editer, /#/editor/article-slug-here )
+- 글을 생성하고 수정하기 위한 관리자 페이지 (URL: /#/editor, /#/editor/article-slug-here )
 - 게시글 페이지 (URL: /#/article/article-slug-here )
-  - 게시글 삭제 버튼 (게시글 작성자에게만 보임)
+  - 게시글 삭제,수정 버튼 (게시글 작성자에게만 보임)
   - 서버 클라이언트 사이드에서 마크다운 렌더
   - 페이지 아래에 댓글 섹션
   - 댓글 삭제 버튼 (댓글 작성자에게만 보임)
 - 프로필 페이지 (URL: /#/profile/:username, /#/profile/:username/favorites)
   - 기본적인 이용자 정보를 보여줌
+  - 프로필 수정 버튼
   - 작성자가 작성한 게시글 또는 작성자가 좋아요 한 게시글의 인기 게시글 목록
 
 # Backend Specs
