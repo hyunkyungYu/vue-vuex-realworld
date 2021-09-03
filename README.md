@@ -36,7 +36,7 @@ SWAGGER : https://realworld-temp-api.herokuapp.com/api-docs
 - 글을 생성하고 수정하기 위한 관리자 페이지 (URL: /#/editor, /#/editor/article-slug-here )
 - 게시글 페이지 (URL: /#/article/article-slug-here )
   - 게시글 삭제,수정 버튼 (게시글 작성자에게만 보임)
-  - 서버 클라이언트 사이드에서 마크다운 렌더
+  - _서버 클라이언트 사이드에서 마크다운 렌더_
   - 페이지 아래에 댓글 섹션
   - 댓글 삭제 버튼 (댓글 작성자에게만 보임)
 - 프로필 페이지 (URL: /#/profile/:username, /#/profile/:username/favorites)
